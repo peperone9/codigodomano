@@ -1,0 +1,456 @@
+body,
+ul {
+  margin: 0;
+  padding: 0;
+}
+a {
+  color: #6a3721;
+  text-decoration: none;
+  font-family: Cooper;
+  font-size: 25px;
+}
+a:hover {
+  opacity: 0.9;
+  color: white;
+  transition: 1s;
+  transform: scale(1.3);
+}
+#logo {
+  display: flex;
+  margin-bottom: 7px;
+}
+.redes {
+  display: flex;
+  gap: 0.2rem;
+  background: none;
+}
+button i {
+  font-size: 20px;
+  color: #6a3721;
+  border: none;
+  cursor: pointer;
+  background: none;
+}
+.bt-redes {
+  background-color: transparent;
+  border: none;
+  transition: 1s;
+}
+.bt-redes:hover{
+  transform: scale(1.2);
+  background-color: white;
+  border-radius: 5px;
+  width: 30px;
+}
+#header {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 0.5rem 2rem;
+  height: 130px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #ee8fab;
+}
+#menu {
+  display: flex;
+  list-style: none;
+  gap: 0.2rem;
+  margin-left: 7rem;
+}
+#menu a {
+  display: block;
+  padding: 0.4rem;
+  margin-right: 5vw;
+}
+
+#button_mob {
+  display: none;
+}
+
+#redes_menu {
+  visibility: hidden;
+  display: none;
+}
+/** slider**/
+body {
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  height: 100vh;
+}
+.slider {
+  width:1600px;
+  height: 600px;
+  overflow: hidden;
+}
+.slides {
+  width: 500%;
+  height: 600px;
+  display: flex;
+}
+.slides input {
+  display: none;
+}
+.slide_img {
+  width: 25%;
+  position: relative;
+  transition: 0.4s;
+}
+.slide_img img {
+  width: 1600px;
+  height: 600px;
+}
+.nav-manual {
+  position: absolute;
+  width: 1600px;
+  margin-top: -40px;
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+}
+.btn-manual {
+  border: 2px solid white;
+  padding: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 1s;
+}
+.btn-manual:hover {
+  background-color: white;
+}
+#radio1:checked ~ .first {
+  margin-left: 0;
+}
+#radio2:checked ~ .first {
+  margin-left: -25%;
+}
+#radio3:checked ~ .first {
+  margin-left: -50%;
+}
+#radio4:checked ~ .first {
+  margin-left: -75%;
+}
+#radio5:checked ~ .first {
+  margin-left: -100%;
+}
+.nav-auto div {
+  border: 2px solid #20a6ff;
+  padding: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 1s;
+}
+.nav-auto {
+  position: absolute;
+  width: 1600px;
+  margin-top: 560px;
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+}
+#radio1:checked ~ .nav-auto .btn-1 {
+  background-color: white;
+}
+#radio2:checked ~ .nav-auto .btn-2 {
+  background-color: white;
+}
+#radio3:checked ~ .nav-auto .btn-3 {
+  background-color: white;
+}
+#radio4:checked ~ .nav-auto .btn-4 {
+  background-color: white;
+}
+#radio5:checked ~ .nav-auto .btn-5 {
+  background-color: white;
+}
+/**  Fim slider**/
+/**  Sobre nós **/
+.fundoh1{
+  margin-left:4vw;
+  font-family: Cooper;
+  color:#6a3721;
+  padding: 0;
+}
+.texto_Sn{
+  font-family: cursive;
+  font-size: 25px;
+  font-weight: bolder;
+}
+/** fim sobre nós **/
+/** cadastro **/
+.cadastro{
+ background-color:#ee8fab;
+ width: 20vw;
+ height: 45px;
+ border-radius: 50px;
+ margin-left:4vw;
+ font-family: verdana;
+ font-size: 22px;
+ color: #6a3721;
+ cursor: pointer;
+ transition: 1s;
+}
+.cadastro:hover{
+  transform: scale(1.2);
+  color: white;
+  opacity: 0.9;
+}
+.icóne{
+ margin-left: 30px;
+ width: 30px;
+}
+.icóne_mais{
+  width: 15px;
+  margin-bottom: 6px;
+}
+/** fim cadastro **/
+/** Nosso cardapio **/
+.fundo_h1{
+  text-align: center;
+  font-family: Cooper;
+  color:#6a3721;
+  margin-top: 20vh;
+  margin-bottom: 0;
+  font-size: 25px;
+  font-weight: lighter;
+}
+/**  carrosel cupcake **/
+.cupcake_container{
+  width: 800px;
+  height: 600px;
+  overflow:hidden;
+  margin-top: 7vh;
+  margin-left: 55vh;
+}
+.slides_cupcake{
+  width: 200%;
+  height: 300px;
+  display: flex;
+}
+.cupcake_img {
+  width: 25%;
+  position: relative;
+  transition: 0.4s;
+  font-size: 50px;
+  text-align: center;
+  font-family: Cooper;
+  color: #6a3721;
+}
+#atual{
+ transition: all 2s;
+}
+.cupcake_img img {
+  width: 350px;
+  height: 260px;
+  border-radius: 25px;
+  transition: 1s;
+  cursor: pointer;
+  opacity:60%;
+}
+.cupcake_img img:hover{
+ opacity: 100%;
+}
+.bolas div {
+  transition: all 0.5;
+  border: 2px solid #6a3721;
+  padding: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.bolas {
+  position: absolute;
+  width: 250px;
+  margin-top:49vh;
+  display: flex;
+  gap: 15px;
+  margin-left: 48.5vh;
+  transition: 1s;
+}
+.bolas div:hover{
+  background-color: #ee8fab;
+}
+.imgAtual{
+  transition: all 0.5s;
+  background-color: #ee8fab;
+}
+.setas{
+  position: absolute;
+  display: flex;
+  align-items: center;
+  color: #ee8fab;
+  font-size: 40px;
+  transition: 1s;
+  cursor: pointer;
+}
+.setas:hover{
+  transform: scale(1.5);
+  color: #6a3721;
+}
+#back{
+  margin-top: 130px;
+  left: 25%;
+}
+#next{
+  margin-left: 105vh;
+  margin-top: 130px;
+}
+/**  carrosel cupcake  fim **/
+/**  texto bebida **/
+.fundo-h1{
+  text-align: center;
+  font-family: Cooper;
+  color:#6a3721;
+  margin-top: 8vh;
+  margin-bottom: 0;
+  font-size: 25px;
+  font-weight: lighter;
+}
+/**carrosel bebida**/
+.bebida_container{
+  width: 800px;
+  height: 600px;
+  overflow:hidden;
+  margin-top: 7vh;
+  margin-left: 55vh;
+}
+.slides_bebida{
+  width: 200%;
+  height: 300px;
+  display: flex;
+}
+.bebida_img {
+  width: 25%;
+  position: relative;
+  transition: 0.4s;
+  font-size: 50px;
+  text-align: center;
+  font-family: Cooper;
+  color: #6a3721;
+}
+#atual1{
+ transition: all 2s;
+}
+.bebida_img img {
+  width: 350px;
+  height: 260px;
+  border-radius: 25px;
+  transition: 1s;
+  cursor: pointer;
+  opacity:60%;
+}
+.bebida_img img:hover{
+ opacity: 100%;
+}
+.ball div {
+  transition: all 0.5;
+  border: 2px solid #6a3721;
+  padding: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.ball {
+  position: absolute;
+  width: 250px;
+  margin-top:49vh;
+  display: flex;
+  gap: 15px;
+  margin-left: 48.5vh;
+  transition: 1s;
+}
+.ball div:hover{
+  background-color: #ee8fab;
+}
+.imgAtual1{
+  transition: all 0.5s;
+  background-color: #ee8fab;
+}
+.setas{
+  position: absolute;
+  display: flex;
+  align-items: center;
+  color: #ee8fab;
+  font-size: 40px;
+  transition: 1s;
+  cursor: pointer;
+}
+.setas:hover{
+  transform: scale(1.5);
+  color: #6a3721;
+}
+#back1{
+  margin-top: 130px;
+  left: 25%;
+}
+#next1{
+  margin-left: 105vh;
+  margin-top: 130px;
+}
+/**carrosel bebida fim**/
+/**texto localização**/
+#container_text{
+  display: flex;
+  gap: 65vh;
+}
+#localização-text{
+  font-family: Cooper;
+  color:#6a3721;
+  margin-top: 5vh;
+  font-size: 25px;
+  font-weight: lighter;
+  margin-left: 300px;
+}
+/**text**/
+#flyer-text{
+  font-family: Cooper;
+  color:#6a3721;
+  margin-top: 5vh;
+  font-size: 25px;
+  font-weight: lighter;
+}
+/**localização**/
+iframe{
+  height: 550px;
+  width: 700px;
+}
+/**caixa localização e flyer**/
+#container_local-flyer{
+  display: flex;
+  margin-left: 80px;
+  padding: 5px;
+  gap: 20vh;
+}
+/**flyer**/
+#flyer{
+  padding: 0%;
+  margin: 0%;
+}
+/**Rodape**/
+footer{
+  width: 100%;
+  display: flex;
+  background-color: #ee8fab;
+  margin-top: 250px;
+  height: 350px;
+}
+.caixa-rodape{
+  margin-top: 30px;
+  width: 320px;
+  min-height: 150px;
+  margin-left: 100px;
+}
+.logo-rodape{
+  margin-left: 40px;
+  margin-top: 50px;
+}
+.caixa-rodape h2{
+  font-family: Cooper;
+  color: #6a3721;
+}
+.caixa-rodape ul li{
+  margin: 30px 0;
+  list-style: none;
+}
+.caixa-rodape ul li a{
+  font-size: 18px;
+}

@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<meta http-equiv=”Content-Type” content=”text/html; charset=utf-8″>
+
+<head>
+  <script src="https://kit.fontawesome.com/78e3b8eb13.js" crossorigin="anonymous"></script>
+  <header id="header">
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mobile.css" media="screen and (max-width: 780px) and (min-height: 320px)" />
+    <img src="logo.svg" alt="Logo site" id="logo" width="120" />
+    <nav id="nav" class="nav">
+      <button id="button_mob">
+        <span id="hamburgue"> </span>
+      </button>
+      <ul id="menu" class="menu">
+        <li><a href="#Sobre">Sobre</a></li>
+        <li><a href="#produtos">Cardápio</a></li>
+        <li><a href="#localização-text">Localização</a></li>
+        <li><a href="">Contato</a></li>
+        <li>
+          <!-- redes quando o menu hamburguer está ativo -->
+          <div id="redes_menu">
+            <button class="bt-redes" id="bt_1"
+              onclick="location.href='https://https://www.instagram.com/store_couplecake/';" value="Go to instagram">
+              <i class="fa-brands fa-instagram-square"></i>
+            </button>
+            <button class="bt-redes" id="bt_2"
+              onclick="location.href='https://https://www.facebook.com/Couplecake-106421932083910?_rdc=1&_rdr/';"
+              value="Go to facebook">
+              <i class="fa-brands fa-facebook-square"></i>
+            </button>
+            <button class="bt-redes" id="bt_3"
+              onclick="location.href='https://https://api.whatsapp.com/send?phone=5511988592266&text=Ol%C3%A1%20quero%20ver%20o%20card%C3%A1pio/';"
+              value="Go to whatssap">
+              <i class="fa-brands fa-whatsapp-square"></i>
+            </button>
+          </div>
+        </li>
+      </ul>
+    </nav>
+    <!-- redes no menu normal -->
+    <div class="redes">
+      <button class="bt-redes" id="bt_1" onclick="location.href='https://www.instagram.com/store_couplecake/';"
+        value="Go to instagram">
+        <i class="fa-brands fa-instagram-square"></i>
+      </button>
+      <button class="bt-redes" id="bt_2"
+        onclick="location.href='https://www.facebook.com/Couplecake-106421932083910?_rdc=1&_rdr/';"
+        value="Go to facebook">
+        <i class="fa-brands fa-facebook-square"></i>
+      </button>
+      <button class="bt-redes" id="bt_3"
+        onclick="location.href='https://https://api.whatsapp.com/send?phone=5511988592266&text=Ol%C3%A1%20quero%20ver%20o%20card%C3%A1pio/';"
+        value="Go to whatssap">
+        <i class="fa-brands fa-whatsapp-square"></i>
+      </button>
+    </div>
+  </header>
+</head>
+<!-- fim menu -->
+<!-- carrosel-->
+
+<body>
+  <div class="slider">
+    <!-- buttons radios -->
+    <div class="slides">
+      <input type="radio" name="btn-radio" id="radio1"  class="radios"/>
+      <input type="radio" name="btn-radio" id="radio2"  class="radios"/>
+      <input type="radio" name="btn-radio" id="radio3"  class="radios"/>
+      <input type="radio" name="btn-radio" id="radio4"  class="radios"/>
+      <input type="radio" name="btn-radio" id="radio5"  class="radios"/>
+      <!--fim-->
+      <div class="slide_img first">
+        <img src="./img/img1.png" alt="cupcake1" />
+      </div>
+      <div class="slide_img">
+        <img src="./img/img2.png" alt="cupcake2" />
+      </div>
+      <div class="slide_img">
+        <img src="./img/img3.png" alt="cupcake3" />
+      </div>
+      <div class="slide_img">
+        <img src="./img/img4.png" alt="cupcake4" />
+      </div>
+      <div class="slide_img">
+        <img src="./img/img5.png" alt="cupcake5" />
+      </div>
+      <!-- fim -->
+      <!-- nav-auto -->
+      <div class="nav-auto">
+        <div class="btn-1"></div>
+        <div class="btn-2"></div>
+        <div class="btn-3"></div>
+        <div class="btn-4"></div>
+        <div class="btn-5"></div>
+      </div>
+      <!-- fim -->
+    </div>
+    <!-- botão de passar slide -->
+    <div class="nav-manual" id="Sobre">
+      <label for="radio1" class="btn-manual"></label>
+      <label for="radio2" class="btn-manual"></label>
+      <label for="radio3" class="btn-manual"></label>
+      <label for="radio4" class="btn-manual"></label>
+      <label for="radio5" class="btn-manual"></label>
+    </div>
+    <!-- fim -->
+  </div>
+  <!-- Fim slider-->
+  <!-- Sobre nós-->
+  <div class="fundoh1">
+    <h1>Sobre nós</h1>
+    <p class="texto_Sn">
+      Uma marca renovada, jovem, aberta, que entende a contemporaneidade.
+      Nossa trajetória de 70 anos nos dá experiência <br />
+      e solidez para ousar e inovar. Aproveite o melhor do Couplecake com
+      melhores ofertas e benefícios exclusivas sendo um Couplecake fã.
+    </p>
+  </div>
+  <!-- Fim sobre nós -->
+  <!--cadastro-->
+  <div class="cadastro">
+    <img src="./img/cadastro.svg" alt="icóne cadastro" class="icóne"><img src="./img/mais.svg" alt="mais" class="icóne_mais">
+    Faça seu cadastro
+  </div>
+  <div class="fundo_h1">
+    <h1 id="produtos">Conheça nossos cupcakes mais famosos</h1>
+  </div>
+  <!--fim cadastro-->
+  <!-- carrosel cupcakes -->
+  <div class="cupcake_container">
+    <!-- buttons voltar avançar -->
+    <div class="slides_cupcake">
+      <div id="back" class="setas"><i class="fa-solid fa-chevron-left"></i></div>
+      <div id="next" class="setas"><i class="fa-solid fa-chevron-right"></i></div>
+      <!--imagens-->
+      <div id="atual" class="cupcake_img">
+        <img src="./img/madalena.png" alt="cupcake madalena" id="madalena"/>
+        Madalena
+      </div>
+      <div class="cupcake_img">
+        <img src="./img/paulista.png" alt="cupcake paulista" id="paulista"/>
+        Paulista
+      </div>
+      <div class="cupcake_img">
+        <img src="./img/pirituba.png" alt="cupcake pirituba" id="pirituba" />
+        Pirituba
+      </div>
+      <div class="cupcake_img">
+        <img src="./img/pinheiros.png" alt="cupcake4" id="pinheiros"/>
+        Pinheiros
+      </div>
+      <!-- fim imagens -->
+      <!-- bolas -->
+      <div class="bolas">
+        
+      </div>
+    </div>
+    <!-- fim bolas  -->
+  </div>
+  <!-- fim carrosel cupcake-->
+  <!-- carrosel bebidas -->
+  <div class="fundo-h1">
+    <h1>Agora veja nossas bebidas mais populares</h1>
+  </div>
+  <div class="bebida_container">
+    <!-- buttons voltar avançar -->
+    <div class="slides_bebida">
+      <div id="back1" class="setas"><i class="fa-solid fa-chevron-left"></i></div>
+      <div id="next1" class="setas"><i class="fa-solid fa-chevron-right"></i></div>
+      <!--imagens-->
+      <div id="atual1" class="bebida_img">
+        <img src="./img/bebida1.png" alt="bebida1">
+        Cappuccino
+      </div>
+      <div class="bebida_img">
+        <img src="./img/bebida2.png" alt="bebida2" >
+        Strawberry
+      </div>
+      <div class="bebida_img">
+        <img src="./img/bebida3.png" alt="bebida3">
+        Mistomilk
+      </div>
+      <div class="bebida_img">
+        <img src="./img/bebida4.png" alt="bebida4">
+        Chocomilk
+      </div>
+      <!-- fim imagens -->
+      <!-- bolas -->
+      <div class="ball">
+      </div>
+      <!-- fim bolas  -->
+    </div>
+    <!-- fim slides  -->
+  </div>
+  <!-- fim container  -->
+ <!-- fim bebidas  -->
+  <!-- localização e fleyer -->
+ <div id="container_text">
+ <div id="localização-text">
+  <h1> Localização </h1>
+</div>
+<div id="flyer-text">
+  <h1> Flyer </h1>
+</div>
+</div>
+ <div id="container_local-flyer">
+ <div id="localização">
+  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3657.3472223651447!2d-46.69131970000001!3d-23.555969800000003!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce57bd0a0551f9%3A0x10c1d92c6709d7d9!2sR.%20Fradique%20Coutinho%2C%201340%20-%20Vila%20Madalena%2C%20S%C3%A3o%20Paulo%20-%20SP%2C%2005416-001!5e0!3m2!1spt-BR!2sbr!4v1655321595556!5m2!1spt-BR!2sbr"allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+ </div>
+ <div id="flyer">
+   <img src="./img/RJY(1).png" alt="flyer" style="width: 400px; height: 550px;">
+ </div>
+</div>
+ <!-- fim localização e fleyer -->
+ <!-- Rodapé -->
+ <footer>
+  <div class="logo-rodape">
+    <img src="logo.svg" alt="Logo site" id="logo" width="125" />
+  </div>
+  <div class="caixa-rodape">
+    <h2>FALE CONOSCO</h2>
+    <ul>
+      <li><a href = "...">FAQ</a></li>
+      <li><a href = "...">E-mail</a></li>
+      <li><a href = "...">Atendimeno</a></li>
+    </ul>
+  </div>
+  <div class="caixa-rodape">
+    <h2>AJUDA E SUPORTE</h2>
+    <ul>
+      <li><a href = "...">Como podemos ajudar ?</a></li>
+      <li><a href = "...">Privacidade</a></li>
+      <li><a href = "...">Perguntas Frequentes</a></li>
+    </ul>
+  </div>
+  <div class="caixa-rodape">
+    <h2>QUEM SOMOS</h2>
+    <ul>
+      <li><a href = "...">Instituncional</a></li>
+      <li><a href = "...">Franquias</a></li>
+      <li><a href = "...">Trabalhe conosco</a></li>
+    </ul>
+  </div>
+    <div class="caixa-rodape" id="social rodape">
+      <h2>SOCIAL</h2>
+      <ul>
+        <li><button class="bt-redes" id="bt_1"
+          onclick="location.href='https://https://www.instagram.com/store_couplecake/';" value="Go to instagram">
+          <i class="fa-brands fa-instagram-square"></i>
+        </button>
+        <button class="bt-redes" id="bt_2"
+          onclick="location.href='https://https://www.facebook.com/Couplecake-106421932083910?_rdc=1&_rdr/';"
+          value="Go to facebook">
+          <i class="fa-brands fa-facebook-square"></i>
+        </button>
+        <button class="bt-redes" id="bt_3"
+          onclick="location.href='https://https://api.whatsapp.com/send?phone=5511988592266&text=Ol%C3%A1%20quero%20ver%20o%20card%C3%A1pio/';"
+          value="Go to whatssap">
+          <i class="fa-brands fa-whatsapp-square"></i>
+        </button>
+      </li>
+      </ul>
+  </div>
+ </footer>
+
+</body>
+<script src="java.js"></script>
+<script src="btn_carrosel2.js"></script>
+
+</html>
